@@ -1,0 +1,37 @@
+
+.main{
+    background-color: rgb(242,242,242);
+}
+.main-full{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    /* width: 50%; */
+    background-color: white;
+    margin: 20px;
+}
+.item img{
+    max-width: 100%;
+    padding: 10px;
+
+}
+.item button{
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.footer{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: white;
+}
+.footer p{
+    padding-top: 15px;
+}
+.footer span{
+    display: inline-block;
+    padding-bottom: 15px;
+}

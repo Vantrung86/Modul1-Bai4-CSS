@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 300px;
+        background-color: rgb(245, 245, 245);
+        padding: 10px;
+        margin: 0 auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      form {
+        background-color: white;
+        padding: 10px;
+        border: 1px solid rgb(189, 182, 182);
+        box-shadow: 2px 2px rgb(241, 238, 238);
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .form-group input {
+        width: 100%;
+      }
+      .form-group textarea {
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      button {
+        padding: 8px 10px;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tuyển dụng</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Họ và tên</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="number">Số điện thoại</label>
+          <input type="text" id="number" />
+        </div>
+        <p>
+          <label>CV:</label>
+          <input type="file" />
+        </p>
+        <div class="form-group">
+          <label>Tin nhắn</label>
+          <textarea name="comment" cols="" rows="2"></textarea>
+        </div>
+        <button>Gửi</button>
+      </form>
+    </div>
+  </body>
+</html>
